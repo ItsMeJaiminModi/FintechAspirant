@@ -17,6 +17,7 @@ class DashboardViewModel: ObservableObject {
     )
     @Published var invites: [Invite] = [Invite(username: "Harsg", userImage: ""), Invite(username: "Dilip", userImage: "")]
 }
+
 struct Invite {
     var username: String
     var userImage: String

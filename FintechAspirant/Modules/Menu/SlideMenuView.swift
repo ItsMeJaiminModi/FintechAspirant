@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct SlideMenuView: View {
     @StateObject private var viewModel = MenuViewModel()
     
@@ -62,7 +60,6 @@ struct SlideMenuView: View {
         .padding(.vertical, 24)
     }
 }
-
 
 #Preview {
     SlideMenuView()
